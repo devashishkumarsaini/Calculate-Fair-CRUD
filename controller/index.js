@@ -28,7 +28,7 @@ exports.getFare=(req,res)=>{
     var destinations = [`${destination.lati},${destination.long}`];
     
     
-    distance.key('AIzaSyAolXVBph__8LXk-JukgnxDUI4LPDQAsxQ');
+    distance.key("API KEY"); //PASTE THE API KEY HERE
     distance.units('imperial');
     
     
